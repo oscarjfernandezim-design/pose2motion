@@ -4,4 +4,5 @@ src/pose2motion/__init__.py
 src/pose2motion.egg-info/PKG-INFO
 src/pose2motion.egg-info/SOURCES.txt
 src/pose2motion.egg-info/dependency_links.txt
+src/pose2motion.egg-info/requires.txt
 src/pose2motion.egg-info/top_level.txt

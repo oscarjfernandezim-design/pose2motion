@@ -1,17 +1,19 @@
-[Build_system]
+[build-system]
 requires = ["setuptools>=61.0"]
-build_backend = "setuptools.build_meta"
+build-backend = "setuptools.build_meta"
 
-[Project]
+[project]
 name = "pose2motion"
 version = "0.1.0"
-description = "Human pose estimation from video: filtering, jitter and accuracy metrics, and 3D skeleton animation, built on OpenCV and MediaPipe."
-requires-python = ">=3.9"
-
+description = "Human pose estimation from video: filtering, jitter and accuracy metrics, and 3D skeleton"
+requires-python = ">=3.10,<3.13"
 dependencies = [
     "opencv-python",
     "mediapipe",
     "numpy",
     "scipy",
-    "matplotlib"
+    "matplotlib",
 ]
+
+[project.optional-dependencies]
+dev = ["pytest", "ruff"]

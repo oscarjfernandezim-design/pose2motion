@@ -1,3 +1,13 @@
 Metadata-Version: 2.4
 Name: pose2motion
-Version: 0.0.0
+Version: 0.1.0
+Summary: Human pose estimation from video: filtering, jitter and accuracy metrics, and 3D skeleton
+Requires-Python: <3.13,>=3.10
+Requires-Dist: opencv-python
+Requires-Dist: mediapipe
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
